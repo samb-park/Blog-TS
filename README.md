@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website, built using **React** and **TypeScript**. This site showcases my skills, experiences, and projects, offering an interactive and professional presentation of my work. You can view the live version of this site on Vercel: [https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/](https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** and **TypeScript**: Provides strong type safety and an enhanced development experience.
+- **Recoil** for state management, ensuring a smooth and responsive user interface.
+- **Responsive design** optimized for both desktop and mobile viewing.
+- **Dynamic routing** with React Router, enabling seamless navigation between sections.
+- **Modern CSS styling** for a clean, polished, and professional look.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Frontend library for building interactive user interfaces.
+- **TypeScript**: Adds type safety, making the codebase more robust and maintainable.
+- **Recoil**: Efficient state management to handle application state.
+- **React Router**: Provides routing for smooth transitions between pages.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+To run this project locally, clone the repository and install dependencies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+git clone https://github.com/samb-park/Blog-TS.git
+cd Blog-TS
+npm install
+npm run dev
