@@ -1,6 +1,6 @@
 # Portfolio Project
 
-Welcome to my personal portfolio website, built using **React** and **TypeScript**. This site showcases my skills, experiences, and projects, offering an interactive and professional presentation of my work. You can view the live version of this site on Vercel: [[https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/](https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/)](https://blog-m51nmncd4-samb-parks-projects.vercel.app/)
+Welcome to my personal portfolio website, built using **React** and **TypeScript**. This site showcases my skills, experiences, and projects, offering an interactive and professional presentation of my work. You can view the live version of this site on Vercel: [[https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/](https://blog-ndq0mw7nr-samb-parks-projects.vercel.app/)]
 
 ## Features
 
